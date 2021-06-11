@@ -57,7 +57,6 @@ function agendarAtualizacaoDeStatus() {
 }
 
 function atualizarStatus() {
-  console.log("Entrou aqui");
   axios.post("http://localhost:4000/status", {}, {
     headers: {
       User: nome
